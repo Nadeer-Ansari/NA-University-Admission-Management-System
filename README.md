@@ -15,7 +15,7 @@ A secure, role-based university admission management web application developed u
 
 ## 🔗 Project Links
 
-- **Live Application:** [Open in Google AI Studio](https://ai.studio/apps/2fba5e78-2dae-40b3-9cbb-5fcb9a3701a8)
+- **Live Application:** [https://uni-admission-portall.ai.studio](https://uni-admission-portall.ai.studio)
 - **GitHub Repository:** [View Repository](https://github.com/Nadeer-Ansari/NA-University-Admission-Management-System)
 
 ---
@@ -36,13 +36,29 @@ The **N.A. University Admission Management System** is a full-lifecycle universi
 
 ## 📸 Screenshots
 
-### Student Admission Desk
+### Student Admission Form and Course Selection
+
+![Student admission form with BE and ME program selection](docs/screenshots/student-admission-form.png)
+
+### Administrator Control Center
+
+![Administrator dashboard with applications, courses, users, and audit controls](docs/screenshots/admin-console.png)
+
+### Accounts and Fee Management Console
+
+![Accounts dashboard with fee verification and transaction management](docs/screenshots/accounts-console.png)
+
+### Faculty Portal — Computer Engineering
+
+![Computer Engineering faculty dashboard and course-wise student roster](docs/screenshots/faculty-computer-engineering.png)
+
+### Faculty Portal — Artificial Intelligence
+
+![Artificial Intelligence faculty dashboard and assigned student roster](docs/screenshots/faculty-ai.png)
+
+### Additional Student Dashboard View
 
 ![Student admission dashboard](docs/screenshots/student-dashboard.png)
-
-### Admission Form and Course Selection
-
-![Admission form and program selection](docs/screenshots/admission-form.png)
 
 ## ✨ Implemented Features
 
@@ -218,4 +234,3 @@ GitHub: [@Nadeer-Ansari](https://github.com/Nadeer-Ansari)
 ## 📄 License
 
 This repository does not currently have an open-source license. Add MIT, Apache 2.0, or another license if you want others to reuse the project.
-
