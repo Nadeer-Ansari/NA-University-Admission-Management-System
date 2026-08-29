@@ -56,10 +56,6 @@ The **N.A. University Admission Management System** is a full-lifecycle universi
 
 ![Artificial Intelligence faculty dashboard and assigned student roster](docs/screenshots/faculty-ai.png)
 
-### Additional Student Dashboard View
-
-![Student admission dashboard](docs/screenshots/student-dashboard.png)
-
 ## ✨ Implemented Features
 
 - Secure login interface with role-based demo personas
