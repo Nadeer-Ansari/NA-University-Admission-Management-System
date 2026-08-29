@@ -1,0 +1,45 @@
+# =======================================================
+# N.A. University Admission Management System - .gitignore
+# Excludes compiled artifacts, local settings, caches & secrets
+# =======================================================
+
+# Visual Studio & .NET Build Artifacts
+bin/
+obj/
+publish/
+TestResults/
+
+# Visual Studio / VS Code / IDE Caches & User Settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Local Databases, Logs & Temporary Data Files
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+logs/
+*.log
+
+# Sensitive Credentials, Secrets & Environment Files
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+secrets.json
+*.pfx
+*.snk
+
+# Node.js / Vite Sandbox Artifacts
+node_modules/
+dist/
+coverage/
+.DS_Store
+Thumbs.db

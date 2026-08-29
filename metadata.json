@@ -1,0 +1,6 @@
+{
+  "name": "University Admission Management System",
+  "description": "An enterprise-grade University Admission Management System featuring ASP.NET Core MVC architecture, role-based workflows for Students, Teachers, Accounts Officers, and Administrators, Aadhaar security, and fee receipt generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

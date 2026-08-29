@@ -1,0 +1,150 @@
+/**
+ * N.A. University - Admission Management System
+ * Official Dark Theme Stylesheet (ASP.NET Core 8 MVC / Razor Views)
+ * Founder: Nadeer Ansari
+ */
+
+:root {
+  --nau-bg-primary: #0B1120;
+  --nau-bg-secondary: #111827;
+  --nau-bg-card: #1F2937;
+  --nau-bg-sidebar: #0F172A;
+  --nau-primary: #3B82F6;
+  --nau-secondary: #8B5CF6;
+  --nau-success: #22C55E;
+  --nau-warning: #F59E0B;
+  --nau-danger: #EF4444;
+  --nau-text-primary: #F8FAFC;
+  --nau-text-secondary: #CBD5E1;
+  --nau-text-muted: #94A3B8;
+  --nau-border: #334155;
+  --nau-input-bg: #111827;
+}
+
+body {
+  background-color: var(--nau-bg-primary);
+  color: var(--nau-text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  color-scheme: dark;
+}
+
+/* Layout Components */
+.nau-navbar {
+  background-color: var(--nau-bg-secondary);
+  border-bottom: 1px solid var(--nau-border);
+}
+
+.nau-sidebar {
+  background-color: var(--nau-bg-sidebar);
+  border-right: 1px solid var(--nau-border);
+}
+
+.nau-card {
+  background-color: var(--nau-bg-card);
+  border: 1px solid var(--nau-border);
+  border-radius: 1rem;
+}
+
+/* Form Controls */
+.nau-input,
+.form-control,
+.form-select {
+  background-color: var(--nau-input-bg) !important;
+  border: 1px solid var(--nau-border) !important;
+  color: var(--nau-text-primary) !important;
+  border-radius: 0.75rem;
+  padding: 0.625rem 0.875rem;
+}
+
+.nau-input:focus,
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--nau-primary) !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25) !important;
+  outline: none;
+}
+
+.nau-input::placeholder,
+.form-control::placeholder {
+  color: var(--nau-text-muted) !important;
+}
+
+/* Tables */
+.nau-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--nau-text-primary);
+}
+
+.nau-table th {
+  background-color: var(--nau-bg-secondary);
+  color: var(--nau-text-secondary);
+  border-bottom: 1px solid var(--nau-border);
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.nau-table td {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--nau-border);
+  font-size: 0.875rem;
+}
+
+.nau-table tbody tr {
+  background-color: var(--nau-bg-card);
+  transition: background-color 0.15s ease-in-out;
+}
+
+.nau-table tbody tr:nth-child(even) {
+  background-color: rgba(17, 24, 39, 0.6);
+}
+
+.nau-table tbody tr:hover {
+  background-color: rgba(51, 65, 85, 0.5);
+}
+
+/* Status Badges */
+.badge-draft { background-color: #1e293b; color: #cbd5e1; border: 1px solid #334155; }
+.badge-submitted { background-color: rgba(30, 58, 138, 0.5); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.3); }
+.badge-under-review { background-color: rgba(88, 28, 135, 0.5); color: #d8b4fe; border: 1px solid rgba(139, 92, 246, 0.3); }
+.badge-documents-pending { background-color: rgba(120, 53, 15, 0.5); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.3); }
+.badge-approved { background-color: rgba(6, 78, 59, 0.5); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.3); }
+.badge-rejected { background-color: rgba(136, 19, 55, 0.5); color: #fda4af; border: 1px solid rgba(244, 63, 94, 0.3); }
+.badge-admission-confirmed { background-color: rgba(6, 95, 70, 0.8); color: #a7f3d0; border: 1px solid rgba(5, 150, 105, 0.6); }
+.badge-pending-payment { background-color: rgba(113, 63, 18, 0.5); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.3); }
+.badge-paid { background-color: rgba(6, 78, 59, 0.5); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.3); }
+.badge-partially-paid { background-color: rgba(120, 53, 15, 0.5); color: #fdba74; border: 1px solid rgba(249, 115, 22, 0.3); }
+.badge-failed { background-color: rgba(136, 19, 55, 0.5); color: #fda4af; border: 1px solid rgba(244, 63, 94, 0.3); }
+.badge-refunded { background-color: #1e293b; color: #94a3b8; border: 1px solid #334155; }
+
+/* Buttons */
+.btn-nau-primary {
+  background-color: var(--nau-primary);
+  color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border: none;
+  transition: all 0.15s ease-in-out;
+}
+.btn-nau-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-nau-secondary {
+  background-color: #1e293b;
+  color: var(--nau-text-primary);
+  border: 1px solid var(--nau-border);
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-nau-secondary:hover {
+  background-color: #334155;
+}
