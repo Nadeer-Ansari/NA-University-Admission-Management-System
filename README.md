@@ -1,4 +1,5 @@
-# 🎓 N.A. University Admission Management System
+# 🎓 University Admission Management System
+### N.A. University Admission Management System
 
 A secure, role-based university admission management web application developed using **ASP.NET Core MVC**.
 
